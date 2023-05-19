@@ -25,6 +25,9 @@ def taxi_fare_zone(distance, zone):
     price = price + min_fare
   return price
 
+print(taxi_fare_zone(-100, 1))
+print(taxi_fare_zone(100, 3))
+print(taxi_fare_zone(100, 1))
 print(taxi_fare_zone(100, 2))
 
 #parte 2
