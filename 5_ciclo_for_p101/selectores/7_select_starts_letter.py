@@ -6,6 +6,9 @@ Crea la función select_starts_letter . Recibe dos parámetros:
 Devuelve la lista de aquellas cadenas que empiezan por el carcter que has recibido. Respeta el orden.
 La primera cadena ha de ser un sólo caracter. Si no es así, la función no debería de continuar.
 Una forma de comprobar que un parámetro cumple una cierta condición es con la palabra clave assert
+
+Assert en Python
+El uso de assert en Python nos permite realizar comprobaciones. Si la expresión contenida dentro del mismo es False, se lanzará una excepción, concretamente AssertionError.
 """
 # Opcion 1:
 def select_start_letter(cadena, elements):
