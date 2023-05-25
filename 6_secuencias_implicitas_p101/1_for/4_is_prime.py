@@ -13,11 +13,11 @@ def is_prime(n):
   is_prime = True
   for item in range(2, n // 2):
     if n % item == 0:
-      is_prime =  False
+      is_prime = False
       break
   return is_prime
 
-print(is_prime(5))
+# print(is_prime(5))
 print(is_prime(17))
 # print(is_prime(29))
 # print(is_prime(2161))
@@ -25,14 +25,13 @@ print(is_prime(17))
 # print(is_prime(1000))
 # print(is_prime(2))
 # print(is_prime(98))
-print(is_prime(21124))
+# print(is_prime(21124))
 
 
 # Otra version, sin el n // 2 hace mas comprobaciones.
 def is_prime_new(n):
   is_prime = True
   for item in range(2, n):
-    # Para mi esta es mas clara el if
     if item % n == 0:
       is_prime =  False
       break

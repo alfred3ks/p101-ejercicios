@@ -21,11 +21,11 @@ def factorial(n):
     accum = accum * num
   return accum
 
-# print(factorial(4))
-# print(factorial(3))
-# print(factorial(1))
-# print(factorial(0))
-# print(factorial(-5))
+print(factorial(4))
+print(factorial(3))
+print(factorial(1))
+print(factorial(0))
+print(factorial(-5))
 
 """
 range(1, m + 1):
@@ -60,6 +60,6 @@ def factorial_new(n):
   return accum
 
 # print(factorial_new(4))
-print(factorial_new(0))
+# print(factorial_new(0))
 # print(factorial_new(1))
 # print(factorial_new(-10))
