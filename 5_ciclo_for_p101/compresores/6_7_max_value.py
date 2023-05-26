@@ -33,10 +33,11 @@ def max_value(numbers):
       max = number
   return max
 
-print(max_value(numbers))
+print(max_value([10,22,37,84,15,76,47,88,999,67]))
+print(max_value([-5, -7, -2]))
+print(max_value([]))
 
 # Opcion B:
-
 def max_value_a(numbers):
   result = None
   if numbers != []:
@@ -47,4 +48,6 @@ def max_value_a(numbers):
     result = max
   return result
 
-print(max_value_a(numbers))
+print(max_value_a([10,22,37,84,15,76,47,88,999,67]))
+print(max_value_a([-5, -7, -2]))
+print(max_value_a([]))

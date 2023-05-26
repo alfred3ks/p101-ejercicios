@@ -3,8 +3,6 @@ Siguiendo el método de arriba, crea la función multiply_all , que recibe una l
 devuelve el producto de todos ellos.
 """
 
-numbers = [1,2,3,4,5,6,7]
-
 def multiply_all(numbers):
   """
   Recibe una lista de numeros y devuelve su producto
@@ -17,4 +15,4 @@ def multiply_all(numbers):
     total_number = total_number * number
   return total_number
 
-print(multiply_all(numbers))
+print(multiply_all([1,2,3,4,5,6,7]))

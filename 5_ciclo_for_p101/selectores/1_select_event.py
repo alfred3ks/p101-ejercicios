@@ -14,6 +14,6 @@ def select_even(elements):
       numbers.append(element)
   return numbers
 
-# print(select_even([1,2,3,4,5,6]))
-# print(select_even([1,3,5,]))
-# print(select_even([]))
+print(select_even([1,2,3,4,5,6]))
+print(select_even([1,3,5,]))
+print(select_even([]))
