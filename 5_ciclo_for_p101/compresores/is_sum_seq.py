@@ -8,11 +8,14 @@ anteriores). En caso contrario, debe de devolver False
 """
 
 def is_sum_seq(numbers):
-  is_sum_seq = True
-  for i in numbers:
+  is_sum_seq = False
+  accum = 0
+  if len(numbers) < 3:
       is_sum_seq = False
-      break
+  for i in numbers:
+    accum += i
+    if accum == numbers[-1]:
+      is_sum_seq = True
   return is_sum_seq
 
-print(is_sum_seq([3,5,8]))
-# print(is_sum_seq([1,2,3,5,8,13]))
+print(is_sum_seq([1,2,3,6,12,24]))
