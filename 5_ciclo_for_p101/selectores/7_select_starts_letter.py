@@ -11,9 +11,9 @@ Assert en Python
 El uso de assert en Python nos permite realizar comprobaciones. Si la expresión contenida dentro del mismo es False, se lanzará una excepción, concretamente AssertionError.
 """
 # Opcion 1:
-def select_start_letter(cadena, elements):
+def select_start_letter(caracter, elements):
   new_list = []
-  un_solo_caracter = cadena[0]
+  un_solo_caracter = caracter[0]
   if len(un_solo_caracter) != 1:
     assert False
   else:
@@ -23,16 +23,16 @@ def select_start_letter(cadena, elements):
   return new_list
 
 # Opcion 2: Profesor, mas condensado y mas simple:
-def select_start_letter(caracter, elements):
-  # Si esto se cumple sigue el resto sino se sale:
-  # Ver documentacion de python assert:
-  assert len(caracter) == 1
+# def select_start_letter(caracter, elements):
+#   # Si esto se cumple sigue el resto sino se sale:
+#   # Ver documentacion de python assert:
+#   assert len(caracter) == 1
 
-  new_list = []
-  for element in elements:
-    if element[0] == caracter:
-      new_list.append(element)
-  return new_list
+#   new_list = []
+#   for element in elements:
+#     if element[0] == caracter:
+#       new_list.append(element)
+#   return new_list
 
 # print(select_start_letter('asd', ['a','dddd']))
-print(select_start_letter('a', ['a','dddd']))
+print(select_start_letter('a', ['a','dddd', 'ababa', 'alfredo']))

@@ -9,7 +9,7 @@ def is_string(string):
   is_string = False
   for i in string:
     if i == 'u':
-      return True
+      is_string = True
   return is_string
 
 def concat_if_u(list_string):
